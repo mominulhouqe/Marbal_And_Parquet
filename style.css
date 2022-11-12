@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 30px;
+    background-color: orange;
+
+}
+.navbar-nav li a{
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+.banner-contents img{
+    background-position: center;
+    background-size: cover;
+}
+#banner{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(./image/slider-3.jpg);
+
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#bannerr{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0.5,0,0.5)), url(./image/slider-3.jpg);
+
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+/* .banner-contents{
+    margin-top: 70px;
+    width: 300px;
+    background-color: orange;
+} */
+.banner-contents{
+    background-color: orange;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+ 
+    
+}
+.banner-contentss{
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-items h1{
+    text-align: center;
+    color: orange;
+    padding: 5px;
+    margin-top: 10px;
+}
+.card-items h1{
+    font-weight: bolder;
+
+}
+.row{
+    background-color: rgb(247, 247, 247);
+  
+}
+.card{
+    box-shadow: -2px 6px 2px -2px black;
+}
+.card:hover{
+    transition: 1s;
+    box-shadow: 1px  2px 2px 2px  rgb(238, 188, 94)
+    
+}
+.banner-contentss h1{
+    font-weight: bolder;
+}
+.links{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.links:hover{
+  
+    background-color: rgb(29, 28, 27);
+    padding: 10px;
+    transition: 1s;
+}
+.foo{
+    background-color: rgb(31, 31, 49);
+}
